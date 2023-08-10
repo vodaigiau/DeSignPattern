@@ -1,9 +1,9 @@
 package version2.presentation;
 
+import version2.domain.InvoiceService;
+import version2.domain.InvoiceServiceImpl;
 import version2.persistence.InvoicePersistenceService;
 import version2.persistence.InvoicePersistenceServiceImpl;
-import version2.presentation.comand.InvoiceService;
-import version2.presentation.comand.InvoiceServiceImpl;
 
 
 

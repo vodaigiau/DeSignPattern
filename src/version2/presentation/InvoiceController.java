@@ -1,6 +1,6 @@
 package version2.presentation;
+import version2.domain.InvoiceService;
 import version2.domain.model.Invoice;
-import version2.presentation.comand.InvoiceService;
 
 import java.time.LocalDate;
 import java.util.List;

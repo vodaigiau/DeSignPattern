@@ -1,4 +1,4 @@
-package version2.presentation.comand;
+package version2.domain;
 
 import java.util.ArrayList;
 import java.util.List;

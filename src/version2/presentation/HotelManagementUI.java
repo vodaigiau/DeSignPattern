@@ -5,13 +5,13 @@ import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableRowSorter;
 
+import version2.domain.InvoiceService;
 import version2.domain.model.Invoice;
 import version2.domain.model.InvoiceObserver;
 import version2.presentation.comand.AddInvoiceCommand;
 import version2.presentation.comand.Command;
 import version2.presentation.comand.CommandProcessor;
 import version2.presentation.comand.EditInvoiceCommand;
-import version2.presentation.comand.InvoiceService;
 import version2.presentation.comand.RemoveInvoiceCommand;
 
 import java.awt.*;
