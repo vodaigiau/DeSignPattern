@@ -433,7 +433,7 @@ public class HotelManagementUI extends JFrame  implements InvoiceObserver{
                     JOptionPane.showMessageDialog(this, "Không có hóa đơn trong tháng " + monthStr);
                 }
             } catch (NumberFormatException ex) {
-                JOptionPane.showMessageDialog(this, "Nhập tháng hợp lệ. Vui lòng nhập một số từ 1 đến 12.");
+                JOptionPane.showMessageDialog(this, "Nhập tháng không hợp lệ. Vui lòng nhập một số từ 1 đến 12.");
             }
         }
     }
